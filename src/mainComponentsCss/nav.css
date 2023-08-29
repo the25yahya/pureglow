@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px 30px 50px;
+    background-color: rgb(244, 255, 255);
+}
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s;
+}
+nav p:hover{
+    color: #60BF89;
+}
+nav .title p{
+    margin-left: 5px;
+    color: #60BF89;
+}
+nav .title img{
+    width: 40px;
+    cursor: pointer;
+}
+nav .user img{
+    width: 25px;
+    margin-left: 5px;
+}
+nav .navigation p{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 17px;
+}
