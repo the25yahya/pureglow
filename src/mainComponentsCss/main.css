@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+}
+.main img{
+    width: 700px;
+}
+.product{
+    background-color: rgb(244, 255, 255);
+    padding: 40px 70px 20px 40px;
+}
+.stars img{
+    width: 15px;
+}
+.product-description{
+    font-family: 'Fraunces', sans-serif;
+}
