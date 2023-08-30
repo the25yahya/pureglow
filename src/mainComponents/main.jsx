@@ -15,8 +15,8 @@ function Product(props){
                 Caring about the body with creams that typically contain the highest porpotion pf all and natural fats and are great for dry skin, and areas like the elbows, knees and heels.
             </p>
          </div>
-         <div>
-          <p>{props.rating}</p>
+         <div className='product-details'>
+          <p className='rating'>{props.rating}</p>
           <div className='stars'>
             <img src={star}/>
             <img src={star}/>
@@ -24,9 +24,24 @@ function Product(props){
             <img src={star}/>
             <img src={star}/>
           </div>
+          <div className='pr-we'>
+            <p className='price'>{props.price}</p>
+            <p className='weight'>{props.weight}</p>
+          </div>
+          <div className='quantity'>
+            <button>
+             <span>-</span>
+             <span>1</span>
+             <span>+</span>
+            </button>
+          </div>
+          <button id='to-cart'> Add to Cart</button>
           <div>
-            <p>{props.price}</p>
-            <p>{props.weight}</p>
+            <button>01</button>
+            <button>BEAUTY COLLECTION</button>
+            <div>
+                <p>Explore All Products</p>
+            </div>
           </div>
          </div>
         </div>
