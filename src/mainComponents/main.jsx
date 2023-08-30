@@ -1,5 +1,6 @@
 import '../mainComponentsCss/main.css'
 import star from '../imgs/star.png'
+import PropTypes from 'prop-types';
 
 
 
@@ -31,6 +32,11 @@ function Product(props){
         </div>
     )
 }
+Product.propTypes = {
+    rating: PropTypes.string.isRequired, // Allowing string type for 'rating'
+    price: PropTypes.string.isRequired,
+    weight: PropTypes.string.isRequired,
+  };
 ////////////////////////
 function Main(){
     return(
