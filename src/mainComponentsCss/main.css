@@ -77,3 +77,57 @@
     background-color: transparent;
     cursor: pointer;
 }
+.b-c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#o-one{
+    border-radius: 30%;
+    padding: 2px 5px 2px 5px;
+    border: transparent;
+    margin-right: 5px;
+    color: white;
+    background-color: #01260E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+#beauty-collection{
+    color: #01260E;
+    background-color: transparent;
+    border: #01260E solid 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+    transition: .2s;
+}
+#beauty-collection:hover{
+    color: white;
+    background-color: #01260E;
+    cursor: pointer;
+}
+.b-c div p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .2s;
+}
+.b-c div p:hover{
+    opacity: 30%;
+}
+.b-c div p i{
+    margin-left: 10px;
+}
+.closure{
+    margin-top: 50px;
+}
+.closure img{
+    width: 20px;
+}
+.closure p{
+    margin-top: 10px;
+    width: 300px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}

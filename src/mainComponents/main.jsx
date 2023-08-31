@@ -36,12 +36,20 @@ function Product(props){
             </button>
           </div>
           <button id='to-cart'> Add to Cart</button>
-          <div>
-            <button>01</button>
-            <button>BEAUTY COLLECTION</button>
+          <div className='b-c'>
             <div>
-                <p>Explore All Products</p>
+             <button id='o-one'>01</button>
+             <button id='beauty-collection'>BEAUTY COLLECTION</button>
             </div>
+            <div>
+                <p>Explore All Products
+                <i className="fa-solid fa-arrow-right"></i>
+                </p>
+            </div>
+          </div>
+          <div className='closure'>
+            <img src={star}/>
+            <p>Conception of beauty aim to capture what is essential</p>
           </div>
          </div>
         </div>
