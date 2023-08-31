@@ -7,7 +7,7 @@
 }
 .product{
     width: 60%;
-    background-color: rgb(244, 255, 255);
+    background-color: rgb(235, 255, 255);
     padding: 35px 70px 20px 40px;
 }
 .product-description{
@@ -17,6 +17,14 @@
 .product-description h1{
     font-size: 45px;
     margin: 20px;
+    position: relative;
+    width: fit-content;
+}
+#stars{
+    width: 35px;
+    position: absolute;
+    left: 102%;
+    bottom: 60%;
 }
 .product-description p{
     width: 500px;

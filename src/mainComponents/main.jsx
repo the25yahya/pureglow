@@ -1,7 +1,7 @@
 import '../mainComponentsCss/main.css'
 import star from '../imgs/star.png'
 import PropTypes from 'prop-types';
-
+import stars from '../imgs/stars.png'
 
 
 function Product(props){
@@ -10,6 +10,7 @@ function Product(props){
          <div className='product-description'>
             <h1>
                 Body Cream
+                <img id='stars' src={stars}/>
             </h1>
             <p>
                 Caring about the body with creams that typically contain the highest porpotion pf all and natural fats and are great for dry skin, and areas like the elbows, knees and heels.

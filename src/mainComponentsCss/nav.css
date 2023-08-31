@@ -20,6 +20,7 @@ nav p:hover{
 nav .title p{
     margin-left: 5px;
     color: #60BF89;
+    font-weight: 600;
 }
 nav .title img{
     width: 40px;
