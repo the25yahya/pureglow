@@ -1,7 +1,9 @@
 import cream from "../imgs/cream.png"
 import '../mainComponentsCss/nav.css'
 import bag from '../imgs/bag.png'
-function Nav(){
+import PropTypes from 'prop-types';
+
+function Nav(props){
     return(
         <nav>
          <div className="title">
@@ -11,9 +13,9 @@ function Nav(){
             <p>PureGlow</p>
          </div>
          <div className="navigation">
-          <p>Home</p>
-          <p>About</p>
-          <p>Products</p>
+          <p onClick={props.handleHomeClick}>Home</p>
+          <p onClick={props.handleAboutClick}>About</p>
+          <p onClick={props.handleProductsClick}>Products</p>
          </div>
          <div className="user"> 
            <p>My bag</p>
@@ -24,5 +26,10 @@ function Nav(){
         </nav>
     )
 }
+Nav.propTypes = {
+    handleHomeClick: PropTypes.func.isRequired,
+    handleAboutClick : PropTypes.func.isRequired,
+    handleProductsClick : PropTypes.func.isRequired,
+  };
 
 export default Nav;
