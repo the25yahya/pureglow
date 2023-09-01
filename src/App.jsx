@@ -19,7 +19,7 @@ function App(){
     setShowAbout(false);
     setShowProducts(true);
   };  
-  const handleAoutClick = () => {
+  const handleAboutClick = () => {
     setShowHome(false);
     setShowAbout(true);
     setShowProducts(false);
@@ -30,7 +30,7 @@ switch (true){
     return( 
       <div className='container'>
        <Nav
-        handleAoutClick={handleAoutClick}
+        handleAboutClick={handleAboutClick}
         handleHomeClick={handleHomeClick}
         handleProductsClick={handleProductsClick}
        />
@@ -41,7 +41,7 @@ switch (true){
     return(
       <div className='container'>
        <Nav
-        handleAoutClick={handleAoutClick}
+        handleAboutClick={handleAboutClick}
         handleHomeClick={handleHomeClick}
         handleProductsClick={handleProductsClick}
        />
@@ -52,7 +52,7 @@ switch (true){
     return(
       <div className='container'>
        <Nav
-        handleAoutClick={handleAoutClick}
+        handleAoutClick={handleAboutClick}
         handleHomeClick={handleHomeClick}
         handleProductsClick={handleProductsClick}
        />
