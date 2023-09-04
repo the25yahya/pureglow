@@ -1,7 +1,7 @@
 function Product(props){
     return(
-        <div className="product">
-         product
+        <div className="product2">
+         
         </div>
     )
 }
