@@ -2,7 +2,7 @@ import '../mainComponentsCss/main.css'
 import star from '../imgs/star.png'
 import PropTypes from 'prop-types';
 import stars from '../imgs/stars.png'
-
+import main from '../imgs/main.png'
 
 function Product(props){
     return(
@@ -71,7 +71,7 @@ function Main(){
             weight="0.5kg"
         />
         <img
-            src='https://vault.uicore.co/spa/wp-content/uploads/sites/18/2019/01/product-3.webp'
+            src={main}
         />
      </div>
     )
